@@ -1,0 +1,40 @@
+# =============================================================================
+# Files git must NOT upload. Large data is downloaded or rebuilt by scripts/.
+# =============================================================================
+
+# ---- Raw data, reference and truth set (scripts/01_download.sh) -------------
+reads/
+reference/
+truth/
+
+# ---- Results: ignore everything ... -------------------------------------------
+results/*
+
+# ... except the final Part 5 tier tables
+!results/tier1_final_rankpick.tsv
+!results/tier2_final_clean.tsv
+!results/tier3_final_clean.tsv
+!results/tier_allele_balance.tsv
+
+# ... and the Part 7 hap.py summaries
+!results/benchmark/
+results/benchmark/*
+!results/benchmark/*.summary.csv
+!results/benchmark/*.extended.csv
+
+# ---- Safety net: large genomics formats anywhere -----------------------------
+*.bam
+*.bai
+*.sam
+*.fastq.gz
+*.fa
+*.fa.*
+*.vcf.gz
+*.vcf.gz.tbi
+*.vcf.gz.csi
+*.tar.gz
+
+# ---- Editor and notebook leftovers ---------------------------------------------
+.ipynb_checkpoints/
+__pycache__/
+*~

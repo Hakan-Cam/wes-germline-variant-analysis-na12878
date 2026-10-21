@@ -1,0 +1,3 @@
+chr6	160706469	A	G	PLG	missense_variant	ENSP00000308938.9:p.Lys38Glu	0.0089	pathogenic&pathogenic/likely_pathogenic	0/1
+chr11	6617154	C	T	TPP1	splice_acceptor_variant	.	0.001	pathogenic	0/1
+chr12	102840474	T	C	PAH	missense_variant	ENSP00000448059.1:p.Tyr414Cys	0.001	pathogenic	0/1

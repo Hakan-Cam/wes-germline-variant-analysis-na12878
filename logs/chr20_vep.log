@@ -1,0 +1,11 @@
+
+-------------------- EXCEPTION --------------------
+MSG: ERROR: Stats file logs/chr20_vep_summary.html already exists. Specify a different output file with --stats_file, overwrite existing file with --force_overwrite or disable stats with --no_stats
+
+STACK Bio::EnsEMBL::VEP::BaseRunner::get_stats_file_handle /home/hcam7/miniconda3/envs/gvp2-vep/share/ensembl-vep-116.3-0/modules/Bio/EnsEMBL/VEP/BaseRunner.pm:275
+STACK Bio::EnsEMBL::VEP::Runner::init /home/hcam7/miniconda3/envs/gvp2-vep/share/ensembl-vep-116.3-0/modules/Bio/EnsEMBL/VEP/Runner.pm:147
+STACK Bio::EnsEMBL::VEP::Runner::run /home/hcam7/miniconda3/envs/gvp2-vep/share/ensembl-vep-116.3-0/modules/Bio/EnsEMBL/VEP/Runner.pm:200
+STACK toplevel /home/hcam7/miniconda3/envs/gvp2-vep/bin/vep:46
+Date (localtime)    = Sat Oct 17 15:11:17 2026
+Ensembl API version = 116
+---------------------------------------------------

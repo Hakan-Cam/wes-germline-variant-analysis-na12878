@@ -1,0 +1,12 @@
+Part 5 summary: VEP annotation and prioritization (NA12878 exome, SRR098401)
+VEP 116.3, cache 116 GRCh38, --pick with rank moved after canonical
+PASS variants annotated (chrY/chrM excluded): 101022
+Tier 1 (ClinVar P/LP, MAX_AF < 1%): 3
+Tier 2 (HIGH impact, rare, MANE Select): 12
+Tier 3 (SIFT deleterious + PolyPhen probably damaging, rare, VAF >= 0.25): 31
+Low allele-balance calls removed (VAF < 0.25): 6
+IMPACT counts:
+    185 HIGH
+  13295 LOW
+   8468 MODERATE
+  79074 MODIFIER

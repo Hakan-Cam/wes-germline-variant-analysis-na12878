@@ -1,0 +1,2 @@
+9eeee958a64248a5c37cf400eb469d0a  reads/SRR098401_1.fastq.gz
+591dbdcdc0fe45382c85f53be20ad90d  reads/SRR098401_2.fastq.gz

@@ -1,0 +1,2 @@
+run_accession	sample_alias	instrument_model	library_strategy	library_layout	read_count	base_count	fastq_bytes
+SRR098401	SAMN00801888	Illumina HiSeq 2000	WXS	PAIRED	114059565	17337053880	7495738881;7734749954
